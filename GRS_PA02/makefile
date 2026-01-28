@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS=-O2 -Wall -pthread
+
+all: server client
+
+server: server.c
+	$(CC) $(CFLAGS) server.c -o server
+
+client: client.c
+	$(CC) $(CFLAGS) client.c -o client
+
+clean:
+	rm -f server client results.csv
+	rm -f server client *.png
