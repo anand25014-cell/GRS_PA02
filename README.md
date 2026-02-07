@@ -3,7 +3,7 @@
 
 **Course:** Graduate Systems (CSE638)  
 **Assignment:** PA02  
-**Name:** Anand Pandey  
+**Name:** Anand
 **Roll Number:** MT25014  
 
 ---
